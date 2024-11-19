@@ -36,7 +36,8 @@ for img in "$original_dir"/*.jpg; do
   "protocol": "http://iiif.io/api/image",
   "profile": "level0",
   "width": $width,
-  "height": $height
+  "height": $height,
+  "sizes": [{ "width": $width, "height": $height }]
 }
 EOF
 
@@ -46,5 +47,12 @@ EOF
 
   # Copy the image to the '0' folder and rename it to 'default.jpg'
   cp "$img" "$full_dir/default.jpg"
+
+  # Create the full/{width},{height}/0 folder structure
+  full_res_dir="$new_dir/full/$width,$height/0"
+  mkdir -p "$full_res_dir"
+
+  # Copy the image to the new resolution folder and rename it to 'default.jpg'
+  cp "$img" "$full_res_dir/default.jpg"
 
 done
