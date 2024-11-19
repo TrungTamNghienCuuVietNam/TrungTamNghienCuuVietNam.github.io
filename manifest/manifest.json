@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/2/context.json",
-  "@id": "http://cd8fe876-ce3a-4fc0-9da4-107896a941bb",
+  "@id": "https://trungtamnghiencuuvietnam.github.io/manifest/manifest.json",
   "@type": "sc:Manifest",
   "label": "testing manifest file",
   "metadata": [],
@@ -24,7 +24,7 @@
       ],
       "canvases": [
         {
-          "@id": "http://9319e40e-7f5a-4386-9085-b4374ea36e66",
+          "@id": "http://3d133102-2c8f-4a2b-b1ac-b1cd8eb484b0",
           "@type": "sc:Canvas",
           "label": "Trang 1",
           "height": 2200,
@@ -32,11 +32,11 @@
           "images": [
             {
               "@context": "http://iiif.io/api/presentation/2/context.json",
-              "@id": "http://d039a3b6-90ec-42a8-a41d-5fcffd179fae",
+              "@id": "http://bfefb599-dc17-4c27-b3da-5f377cb4ebac",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
               "resource": {
-                "@id": "https://trungtamnghiencuuvietnam.github.io/images/So1_Feb1_1918_0000/full/max/0/default.jpg",
+                "@id": "https://trungtamnghiencuuvietnam.github.io/images/So1_Feb1_1918_0000/full/full/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
                 "service": {
@@ -47,19 +47,13 @@
                 "height": 2200,
                 "width": 1700
               },
-              "on": "http://9319e40e-7f5a-4386-9085-b4374ea36e66"
+              "on": "http://3d133102-2c8f-4a2b-b1ac-b1cd8eb484b0"
             }
           ],
-          "related": "",
-          "metadata": [
-            {
-              "label": "Transcription",
-              "value": "OCR cua text 1"
-            }
-          ]
+          "related": ""
         },
         {
-          "@id": "http://b7a49b59-b987-4156-b992-fc34cd5bd0a8",
+          "@id": "http://73c420a0-838b-45c1-a356-69b88d76a9d2",
           "@type": "sc:Canvas",
           "label": "Trang 2",
           "height": 2200,
@@ -67,11 +61,11 @@
           "images": [
             {
               "@context": "http://iiif.io/api/presentation/2/context.json",
-              "@id": "http://9fcd0707-fbf3-49e5-a624-a133fefcbfcc",
+              "@id": "http://e833f1d0-c140-4613-b9ba-bdc568f4644f",
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
               "resource": {
-                "@id": "https://trungtamnghiencuuvietnam.github.io/images/So1_Feb1_1918_0001/full/max/0/default.jpg",
+                "@id": "https://trungtamnghiencuuvietnam.github.io/images/So1_Feb1_1918_0001/full/full/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
                 "service": {
@@ -82,16 +76,10 @@
                 "height": 2200,
                 "width": 1700
               },
-              "on": "http://b7a49b59-b987-4156-b992-fc34cd5bd0a8"
+              "on": "http://73c420a0-838b-45c1-a356-69b88d76a9d2"
             }
           ],
-          "related": "",
-          "metadata": [
-            {
-              "label": "Transcription",
-              "value": "OCR text 2"
-            }
-          ]
+          "related": ""
         }
       ]
     }
