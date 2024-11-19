@@ -36,7 +36,7 @@
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
               "resource": {
-                "@id": "https://trungtamnghiencuuvietnam.github.io/images/So1_Feb1_1918_0000/full/full/0/default.jpg",
+                "@id": "https://trungtamnghiencuuvietnam.github.io/images/So1_Feb1_1918_0000/full/max/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
                 "service": {
@@ -71,7 +71,7 @@
               "@type": "oa:Annotation",
               "motivation": "sc:painting",
               "resource": {
-                "@id": "https://trungtamnghiencuuvietnam.github.io/images/So1_Feb1_1918_0001/full/full/0/default.jpg",
+                "@id": "https://trungtamnghiencuuvietnam.github.io/images/So1_Feb1_1918_0001/full/max/0/default.jpg",
                 "@type": "dctypes:Image",
                 "format": "image/jpeg",
                 "service": {
