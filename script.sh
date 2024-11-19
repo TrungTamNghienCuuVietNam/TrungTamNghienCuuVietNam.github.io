@@ -42,11 +42,16 @@ for img in "$original_dir"/*.jpg; do
 EOF
 
   # Create the full folder structure
-  full_dir="$new_dir/full/max/0"
-  mkdir -p "$full_dir"
+  full_max="$new_dir/full/max/0"
+  mkdir -p "$full_max"
 
   # Copy the image to the '0' folder and rename it to 'default.jpg'
-  cp "$img" "$full_dir/default.jpg"
+  cp "$img" "$full_max/default.jpg"
+
+  full_full="$new_dir/full/full/0"
+  mkdir -p "$full_full"
+
+  cp "$img" "$full_full/default.jpg"
 
   # Create the full/{width},{height}/0 folder structure
   full_res_dir="$new_dir/full/$width,$height/0"
