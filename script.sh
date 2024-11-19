@@ -16,9 +16,35 @@ for img in "$original_dir"/*.jpg; do
   new_dir="$target_dir/$img_name"
   mkdir -p "$new_dir"
 
-  # Copy or move the image to the new directory
-#   cp "$img" "$new_dir/"  # Use cp for copying, or mv for moving
+  # Create the info.json file in the new directory
+  info_json="$new_dir/info.json"
 
-  # Print a message indicating the image has been copied
-  echo "Copied $img to $new_dir/"
+  # Get the width and height of the image using 'identify' from ImageMagick
+  # (Assuming ImageMagick is installed, otherwise install it with 'apt install imagemagick' or 'brew install imagemagick')
+  width=$(identify -format "%w" "$img")
+  height=$(identify -format "%h" "$img")
+
+  # Construct the ID URL
+  img_id="https://trungtamnghiencuuvietnam.github.io/images/$img_name"
+
+  # Create the JSON content
+  cat > "$info_json" <<EOF
+{
+  "@context": "http://iiif.io/api/image/3/context.json",
+  "id": "$img_id",
+  "type": "ImageService3",
+  "protocol": "http://iiif.io/api/image",
+  "profile": "level0",
+  "width": $width,
+  "height": $height
+}
+EOF
+
+  # Create the full folder structure
+  full_dir="$new_dir/full/max/0"
+  mkdir -p "$full_dir"
+
+  # Copy the image to the '0' folder and rename it to 'default.jpg'
+  cp "$img" "$full_dir/default.jpg"
+
 done
