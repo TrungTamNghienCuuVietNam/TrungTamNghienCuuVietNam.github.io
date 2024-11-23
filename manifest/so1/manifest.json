@@ -1,214 +1,148 @@
 {
-  "@context": "http://iiif.io/api/presentation/2/context.json",
-  "@id": "https://trungtamnghiencuuvietnam.github.io/manifest/manifest.json",
-  "@type": "sc:Manifest",
-  "label": ["Số 1 - Báo Nữ Giới Chung"],
-  "metadata": [],
-  "description": [
-    {
-      "@value": "Báo nữ giới chung là tờ báo nổi bật của thế kỉ XX",
-      "@language": "vn"
-    }
-  ],
-  "license": "https://creativecommons.org/licenses/by/3.0/",
-  "attribution": "Bản quyền thuộc về Trung Tâm Nghiên Cứu Việt Nam",
-  "sequences": [
-    {
-      "@id": "http://5701a9cf-fb94-476e-be5f-3d64aaea97ba",
-      "@type": "sc:Sequence",
-      "label": [
-        {
-          "@value": "Normal Sequence",
-          "@language": "en"
-        }
-      ],
-      "canvases": [
-        {
-          "@id": "http://3d133102-2c8f-4a2b-b1ac-b1cd8eb484b0",
-          "@type": "sc:Canvas",
-          "label": "Trang 1",
-          "height": 2200,
-          "width": 1700,
-          "images": [
-            {
-              "@context": "http://iiif.io/api/presentation/2/context.json",
-              "@id": "http://bfefb599-dc17-4c27-b3da-5f377cb4ebac",
-              "@type": "oa:Annotation",
-              "motivation": "sc:painting",
-              "resource": {
-                "@id": "https://trungtamnghiencuuvietnam.github.io/images/So1_Feb1_1918_0000/full/full/0/default.jpg",
-                "@type": "dctypes:Image",
-                "format": "image/jpeg",
-                "service": {
-                  "@context": "http://iiif.io/api/image/3/context.json",
-                  "@id": "https://trungtamnghiencuuvietnam.github.io/images/So1_Feb1_1918_0000",
-                  "profile": "level0"
-                },
-                "height": 2200,
-                "width": 1700
-              },
-              "on": "http://3d133102-2c8f-4a2b-b1ac-b1cd8eb484b0"
-            }
-          ],
-          "related": "",
-          "metadata": [
-            {
-              "label": "OCR",
-              "value": "Đây là OCR của trang báo thứ nhất"
-            }
-          ]
-        },
-        {
-          "@id": "http://73c420a0-838b-45c1-a356-69b88d76a9d2",
-          "@type": "sc:Canvas",
-          "label": "Trang 2",
-          "height": 2200,
-          "width": 1700,
-          "images": [
-            {
-              "@context": "http://iiif.io/api/presentation/2/context.json",
-              "@id": "http://e833f1d0-c140-4613-b9ba-bdc568f4644f",
-              "@type": "oa:Annotation",
-              "motivation": "sc:painting",
-              "resource": {
-                "@id": "https://trungtamnghiencuuvietnam.github.io/images/So1_Feb1_1918_0001/full/full/0/default.jpg",
-                "@type": "dctypes:Image",
-                "format": "image/jpeg",
-                "service": {
-                  "@context": "http://iiif.io/api/image/3/context.json",
-                  "@id": "https://trungtamnghiencuuvietnam.github.io/images/So1_Feb1_1918_0001",
-                  "profile": "level0"
-                },
-                "height": 2200,
-                "width": 1700
-              },
-              "on": "http://73c420a0-838b-45c1-a356-69b88d76a9d2"
-            }
-          ],
-          "related": "",
-          "metadata": [
-            {
-              "label": "OCR",
-              "value": "Đây là OCR của trang báo thứ 2, nội dung khác với trang thứ nhất"
-            }
-          ]
-        },
-        {
-          "@id": "http://36ea2d74-2c7d-4e2d-8eb3-2f3c4a7f104f",
-          "@type": "sc:Canvas",
-          "label": "Trang 3",
-          "height": 2200,
-          "width": 1700,
-          "images": [
-            {
-              "@context": "http://iiif.io/api/presentation/2/context.json",
-              "@id": "http://ba8ff889-4238-4287-85e6-a159b3c014e3",
-              "@type": "oa:Annotation",
-              "motivation": "sc:painting",
-              "resource": {
-                "@id": "https://trungtamnghiencuuvietnam.github.io/images/So1_Feb1_1918_0002/full/full/0/default.jpg",
-                "@type": "dctypes:Image",
-                "format": "image/jpeg",
-                "service": {
-                  "@context": "http://iiif.io/api/image/3/context.json",
-                  "@id": "https://trungtamnghiencuuvietnam.github.io/images/So1_Feb1_1918_0002",
-                  "profile": "level0"
-                },
-                "height": 2200,
-                "width": 1700
-              },
-              "on": "http://36ea2d74-2c7d-4e2d-8eb3-2f3c4a7f104f"
-            }
-          ],
-          "related": "",
-          "metadata": [
-            {
-              "label": "OCR",
-              "value": "Đây là OCR của trang thứ 3, hoàn toàn độc quyền"
-            }
-          ]
-        },
-        {
-          "@id": "http://7bcd5783-3332-4ed1-9f72-61222a146f09",
-          "@type": "sc:Canvas",
-          "label": "Trang 4",
-          "height": 2200,
-          "width": 1700,
-          "images": [
-            {
-              "@context": "http://iiif.io/api/presentation/2/context.json",
-              "@id": "http://4b034f15-1a6f-4a8f-8705-2591db4a5bf1",
-              "@type": "oa:Annotation",
-              "motivation": "sc:painting",
-              "resource": {
-                "@id": "https://trungtamnghiencuuvietnam.github.io/images/So1_Feb1_1918_0003/full/full/0/default.jpg",
-                "@type": "dctypes:Image",
-                "format": "image/jpeg",
-                "service": {
-                  "@context": "http://iiif.io/api/image/3/context.json",
-                  "@id": "https://trungtamnghiencuuvietnam.github.io/images/So1_Feb1_1918_0003",
-                  "profile": "level0"
-                },
-                "height": 2200,
-                "width": 1700
-              },
-              "on": "http://7bcd5783-3332-4ed1-9f72-61222a146f09"
-            }
-          ],
-          "related": "",
-          "metadata": [
-            {
-              "label": "OCR",
-              "value": "Đây là OCR của trang thứ 4, khác với trang thứ 3"
-            }
-          ]
-        },
-        {
-          "@id": "http://7cd288d5-2724-4f4b-bfd7-27d577d0eb91",
-          "@type": "sc:Canvas",
-          "label": "Trang 5",
-          "height": 2200,
-          "width": 1700,
-          "images": [
-            {
-              "@context": "http://iiif.io/api/presentation/2/context.json",
-              "@id": "http://aa270a98-7b53-4cf9-b10e-9e2ca20ee450",
-              "@type": "oa:Annotation",
-              "motivation": "sc:painting",
-              "resource": {
-                "@id": "https://trungtamnghiencuuvietnam.github.io/images/So1_Feb1_1918_0004/full/full/0/default.jpg",
-                "@type": "dctypes:Image",
-                "format": "image/jpeg",
-                "service": {
-                  "@context": "http://iiif.io/api/image/3/context.json",
-                  "@id": "https://trungtamnghiencuuvietnam.github.io/images/So1_Feb1_1918_0004",
-                  "profile": "level0"
-                },
-                "height": 2200,
-                "width": 1700
-              },
-              "on": "http://7cd288d5-2724-4f4b-bfd7-27d577d0eb91"
-            }
-          ],
-          "related": "",
-          "metadata": [
-            {
-              "label": "OCR",
-              "value": "Đây là OCR của trang thứ 5, vẫn rất là oke nha."
-            }
-          ]
-        }
-      ]
-    }
-  ],
-  "structures": [],
-  "thumbnail": {
-    "@id": "http://3d133102-2c8f-4a2b-b1ac-b1cd8eb484b0"
-  },
-  "related": {
-    "@id": "vsc@fulbright.edu.vn",
-    "label": "vsc@fulbright.edu.vn",
-    "format": "email"
-  },
-  "viewingDirection": "left-to-right"
+	"@context": "http://iiif.io/api/presentation/2/context.json",
+	"@id": "http://f0eddc51-0e85-45ce-aa10-c78cb7c8a020",
+	"@type": "sc:Manifest",
+	"label": "Số 1 - Báo Nữ Giới Chung",
+	"metadata": [
+		{
+			"label": "Label",
+			"value": "Value"
+		}
+	],
+	"description": [
+		{
+			"@value": "Báo nữ giới chung là tờ báo nổi bật của thế kỉ XX",
+			"@language": "vn"
+		}
+	],
+	"license": "https://creativecommons.org/licenses/by/3.0/",
+	"attribution": "Bản quyền thuộc về Trung Tâm Nghiên Cứu Việt Nam",
+	"sequences": [
+		{
+			"@id": "http://a1f29f6e-51d0-4070-9f0e-855704c644a7",
+			"@type": "sc:Sequence",
+			"label": [
+				{
+					"@value": "Normal Sequence",
+					"@language": "en"
+				}
+			],
+			"canvases": [
+				{
+					"@id": "http://abc95a93-c9eb-448e-9678-ec33fd2aa90c",
+					"@type": "sc:Canvas",
+					"label": "Trang 1",
+					"height": 2200,
+					"width": 1700,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://25556186-6e25-407e-87f2-ac965ced7c41",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://trungtamnghiencuuvietnam.github.io/images/So1_Feb1_1918_0000/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/3/context.json",
+									"@id": "https://trungtamnghiencuuvietnam.github.io/images/So1_Feb1_1918_0000",
+									"profile": "level0"
+								},
+								"height": 2200,
+								"width": 1700
+							},
+							"on": "http://abc95a93-c9eb-448e-9678-ec33fd2aa90c"
+						}
+					],
+					"related": "",
+					"metadata": [
+						{
+							"label": "OCR text",
+							"value": "Text dau tien ne he"
+						}
+					]
+				},
+				{
+					"@id": "http://ebd3637e-4806-4c33-9595-80d36a37684b",
+					"@type": "sc:Canvas",
+					"label": "Trang 2",
+					"height": 2200,
+					"width": 1700,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://a32339c8-ad68-4785-b365-88bf6a135a90",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://trungtamnghiencuuvietnam.github.io/images/So1_Feb1_1918_0001/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/3/context.json",
+									"@id": "https://trungtamnghiencuuvietnam.github.io/images/So1_Feb1_1918_0001",
+									"profile": "level0"
+								},
+								"height": 2200,
+								"width": 1700
+							},
+							"on": "http://ebd3637e-4806-4c33-9595-80d36a37684b"
+						}
+					],
+					"related": "",
+					"metadata": [
+						{
+							"label": "OCR text",
+							"value": "Đây là text thứ 2"
+						}
+					]
+				},
+				{
+					"@id": "http://f9c9cb93-a1ab-4b90-ad35-9e38c490b127",
+					"@type": "sc:Canvas",
+					"label": "Trang 3",
+					"height": 2200,
+					"width": 1700,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://6cd9bdc9-889c-4182-8d37-e8819474503c",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://trungtamnghiencuuvietnam.github.io/images/So1_Feb1_1918_0002/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/3/context.json",
+									"@id": "https://trungtamnghiencuuvietnam.github.io/images/So1_Feb1_1918_0002",
+									"profile": "level0"
+								},
+								"height": 2200,
+								"width": 1700
+							},
+							"on": "http://f9c9cb93-a1ab-4b90-ad35-9e38c490b127"
+						}
+					],
+					"related": "",
+					"metadata": [
+						{
+							"label": "OCR text",
+							"value": "OCR của text trang thứ 3"
+						}
+					]
+				}
+			]
+		}
+	],
+	"structures": [],
+	"related": {
+		"@id": "vsc@fulbright.edu.vn",
+		"label": "vsc@fulbright.edu.vn",
+		"format": "email"
+	},
+	"thumbnail": {
+		"@id": "http://abc95a93-c9eb-448e-9678-ec33fd2aa90c"
+	}
 }
