@@ -21,8 +21,8 @@ for img in "$original_dir"/*.jpg; do
 
   # Get the width and height of the image using 'identify' from ImageMagick
   # (Assuming ImageMagick is installed, otherwise install it with 'apt install imagemagick' or 'brew install imagemagick')
-  width=$(identify -format "%w" "$img")
-  height=$(identify -format "%h" "$img")
+  width=$(magick identify -format "%w" "$img")
+  height=$(magick identify -format "%h" "$img")
 
   # Construct the ID URL
   img_id="https://trungtamnghiencuuvietnam.github.io/images/$img_name"
@@ -73,7 +73,7 @@ EOF
     mkdir -p "$scale_dir"
 
     # Resize the image and save it
-    convert "$img" -resize "${scaled_width}x${scaled_height}" "$scale_dir/default.jpg"
+    magick "$img" -resize "${scaled_width}x${scaled_height}" "$scale_dir/default.jpg"
   done
 
 done
