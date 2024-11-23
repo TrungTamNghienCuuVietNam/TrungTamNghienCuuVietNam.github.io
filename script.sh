@@ -37,7 +37,12 @@ for img in "$original_dir"/*.jpg; do
   "profile": "level0",
   "width": $width,
   "height": $height,
-  "sizes": [{ "width": $width, "height": $height }]
+  "sizes": [
+    { "width": $width, "height": $height },
+    { "width": $(($width * 80 / 100)), "height": $(($height * 80 / 100)) },
+    { "width": $(($width * 60 / 100)), "height": $(($height * 60 / 100)) },
+    { "width": $(($width * 40 / 100)), "height": $(($height * 40 / 100)) }
+  ]
 }
 EOF
 
@@ -59,5 +64,16 @@ EOF
 
   # Copy the image to the new resolution folder and rename it to 'default.jpg'
   cp "$img" "$full_res_dir/default.jpg"
+
+  # Create resized images at 80%, 60%, and 40%
+  for scale in 80 60 40; do
+    scaled_width=$(($width * $scale / 100))
+    scaled_height=$(($height * $scale / 100))
+    scale_dir="$new_dir/full/$scaled_width,$scaled_height/0"
+    mkdir -p "$scale_dir"
+
+    # Resize the image and save it
+    convert "$img" -resize "${scaled_width}x${scaled_height}" "$scale_dir/default.jpg"
+  done
 
 done
