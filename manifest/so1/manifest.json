@@ -1,6 +1,6 @@
 {
 	"@context": "http://iiif.io/api/presentation/2/context.json",
-	"@id": "http://f0eddc51-0e85-45ce-aa10-c78cb7c8a020",
+	"@id": "https://trungtamnghiencuuvietnam.github.io/manifest/So1/manifest.json",
 	"@type": "sc:Manifest",
 	"label": "Số 1 - Báo Nữ Giới Chung",
 	"metadata": [
