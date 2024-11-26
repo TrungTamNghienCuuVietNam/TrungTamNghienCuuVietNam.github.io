@@ -4,10 +4,6 @@
 	"@type": "sc:Manifest",
 	"label": "Số 1 - Báo Nữ Giới Chung",
 	"metadata": [
-		{
-			"label": "Label",
-			"value": "Value"
-		}
 	],
 	"description": [
 		{
@@ -15,8 +11,8 @@
 			"@language": "vn"
 		}
 	],
-	"license": "https://creativecommons.org/licenses/by/3.0/",
-	"attribution": "Bản quyền thuộc về Trung Tâm Nghiên Cứu Việt Nam",
+	"license": "Proprietary",
+	"attribution": "Mọi quyền đã được bảo lưu. Bản quyền thuộc về Trung Tâm Nghiên Cứu Việt Nam",
 	"sequences": [
 		{
 			"@id": "http://a1f29f6e-51d0-4070-9f0e-855704c644a7",
