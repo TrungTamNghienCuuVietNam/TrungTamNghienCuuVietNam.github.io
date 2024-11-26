@@ -138,7 +138,7 @@
 	],
 	"structures": [],
 	"related": {
-		"@id": "vsc@fulbright.edu.vn",
+		"@id": "mailto:vsc@fulbright.edu.vn",
 		"label": "vsc@fulbright.edu.vn",
 		"format": "email"
 	},
