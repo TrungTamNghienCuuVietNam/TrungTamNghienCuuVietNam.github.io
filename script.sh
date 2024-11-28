@@ -12,8 +12,17 @@ for img in "$original_dir"/*.jpg; do
   # Get the base name of the image (without the extension)
   img_name=$(basename "$img" .jpg)
 
-  # Create the target subdirectory for this image in the images folder
+  # Check if a folder with the image name already exists
   new_dir="$target_dir/$img_name"
+  if [ -d "$new_dir" ]; then
+    echo "Skipping '$img_name': Already processed."
+    continue
+  fi
+
+  # Print a message indicating that the image is being processed
+  echo "Processing '$img_name'..."
+
+  # Create the target subdirectory for this image in the images folder
   mkdir -p "$new_dir"
 
   # Create the info.json file in the new directory
@@ -75,5 +84,4 @@ EOF
     # Resize the image and save it
     magick "$img" -resize "${scaled_width}x${scaled_height}" "$scale_dir/default.jpg"
   done
-
 done
