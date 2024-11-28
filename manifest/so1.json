@@ -1,18 +1,22 @@
 {
 	"@context": "http://iiif.io/api/presentation/2/context.json",
-	"@id": "http://38826bbd-60bd-4794-a809-22e8e07832a9",
+	"@id": "https://trungtamnghiencuuvietnam.github.io/manifest/so1.json",
 	"@type": "sc:Manifest",
 	"label": [
-		"Số 1 - Báo Nữ Giới Chung",
-		{
-			"@value": "Label có language",
-			"@language": "vi"
-		}
+		"Số 1 - Báo Nữ Giới Chung"
 	],
 	"metadata": [],
 	"description": [
 		{
 			"@value": "Báo nữ giới chung là tờ báo nổi bật của thế kỉ XX",
+			"@language": "vi"
+		},
+		{
+			"@value": "Chủ bút: Sương Nguyệt Anh",
+			"@language": "vi"
+		},
+		{
+			"@value": "Ngày xuất bản: Ngày 1 tháng 2 năm 1918",
 			"@language": "vi"
 		}
 	],
