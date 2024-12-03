@@ -1,0 +1,773 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://trungtamnghiencuuvietnam.github.io/manifest/so11.json",
+  "@type": "sc:Manifest",
+  "label": ["Số báo 11 - Báo Nữ Giới Chung"],
+  "metadata": [
+    {
+      "label": "Tiêu đề chính",
+      "value": "Nữ Giới Chung"
+    },
+    {
+      "label": "Phụ đề",
+      "value": "女界钟 (Nǚ jiè zhōng, Nữ Giới Chuông)"
+    },
+    {
+      "label": "Phụ đề",
+      "value": "Fémina Annamite"
+    },
+    {
+      "label": "Tổng biên tập",
+      "value": "Sương Nguyệt Anh"
+    },
+    {
+      "label": "Thể loại",
+      "value": "Báo chí phụ nữ Việt Nam (Women's periodicals, Vietnamese)"
+    },
+    {
+      "label": "Nơi xuất bản",
+      "value": "Việt Nam"
+    },
+    {
+      "label": "Ngày xuất bản",
+      "value": "ISO 8601: 1918-04-19, Tiếng Việt: Ngày 19 tháng 4, năm 1918"
+    },
+    {
+      "label": "Thông tin về tập (Volume):",
+      "value": "Tập: 11"
+    },
+    {
+      "label": "Ngôn ngữ",
+      "value": "Tiếng Việt (vie), Tiếng Pháp (fra), Tiếng Trung Quốc (zho)"
+    },
+    {
+      "label": "Tóm tắt",
+      "value": "Nữ Giới Chung, xuất bản năm 1918, là tờ nữ báo đầu tiên tại Việt Nam. Tờ báo đóng vai trò quan trọng trong việc thúc đẩy quyền phụ nữ dưới sự biên tập của Sương Nguyệt Anh, một cây bút nổi bật trong làng báo Việt Nam vào đầu thế kỷ 20."
+    },
+    {
+      "label": "Chủ đề (từ khóa theo chuẩn LCSH):",
+      "value": "Báo chí Việt Nam (Vietnamese periodicals), Nữ quyền--Việt Nam (Feminism--Vietnam)"
+    },
+    {
+      "label": "Điều kiện truy cập:",
+      "value": "Truy cập mở phục vụ mục đích giáo dục và nghiên cứu; cấm sử dụng với mục đích thương mại."
+    }
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "attribution": "Mọi quyền đã được bảo lưu. Bản quyền thuộc về Trung Tâm Nghiên Cứu Việt Nam",
+  "sequences": [
+    {
+      "@id": "http://cce11627-e01d-4da7-8fe0-4dd945f74bf7",
+      "@type": "sc:Sequence",
+      "label": [
+        {
+          "@value": "Normal Sequence",
+          "@language": "en"
+        }
+      ],
+      "canvases": [
+        {
+          "@id": "http://ec1d1ab6-33e3-41c7-9a59-78ff66f52db3",
+          "@type": "sc:Canvas",
+          "label": "Trang 1",
+          "height": 2200,
+          "width": 1700,
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "http://553c0091-78a1-4af5-8f29-0ee1f566d42e",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://trungtamnghiencuuvietnam.github.io/images/So11_April19_1918_0000/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/3/context.json",
+                  "@id": "https://trungtamnghiencuuvietnam.github.io/images/So11_April19_1918_0000",
+                  "profile": "level0"
+                },
+                "height": 2200,
+                "width": 1700
+              },
+              "on": "http://ec1d1ab6-33e3-41c7-9a59-78ff66f52db3"
+            }
+          ],
+          "related": ""
+        },
+        {
+          "@id": "http://38083fa8-fcba-4ff1-a693-d8791c382f3e",
+          "@type": "sc:Canvas",
+          "label": "Trang 2",
+          "height": 2200,
+          "width": 1700,
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "http://498e2c05-343a-4b0d-8858-b4a667bf7449",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://trungtamnghiencuuvietnam.github.io/images/So11_April19_1918_0001/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/3/context.json",
+                  "@id": "https://trungtamnghiencuuvietnam.github.io/images/So11_April19_1918_0001",
+                  "profile": "level0"
+                },
+                "height": 2200,
+                "width": 1700
+              },
+              "on": "http://38083fa8-fcba-4ff1-a693-d8791c382f3e"
+            }
+          ],
+          "related": ""
+        },
+        {
+          "@id": "http://842b3c19-2094-4352-b970-a1739089a3d6",
+          "@type": "sc:Canvas",
+          "label": "Trang 3",
+          "height": 2200,
+          "width": 1700,
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "http://d471a924-f547-4e6c-9f12-53b1ac956bda",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://trungtamnghiencuuvietnam.github.io/images/So11_April19_1918_0002/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/3/context.json",
+                  "@id": "https://trungtamnghiencuuvietnam.github.io/images/So11_April19_1918_0002",
+                  "profile": "level0"
+                },
+                "height": 2200,
+                "width": 1700
+              },
+              "on": "http://842b3c19-2094-4352-b970-a1739089a3d6"
+            }
+          ],
+          "related": ""
+        },
+        {
+          "@id": "http://aaaf2d08-f25d-4c0c-917e-bf54d7c154c1",
+          "@type": "sc:Canvas",
+          "label": "Trang 4",
+          "height": 2200,
+          "width": 1700,
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "http://c6ec2c01-2e02-4553-b13e-216a47eca2dd",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://trungtamnghiencuuvietnam.github.io/images/So11_April19_1918_0003/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/3/context.json",
+                  "@id": "https://trungtamnghiencuuvietnam.github.io/images/So11_April19_1918_0003",
+                  "profile": "level0"
+                },
+                "height": 2200,
+                "width": 1700
+              },
+              "on": "http://aaaf2d08-f25d-4c0c-917e-bf54d7c154c1"
+            }
+          ],
+          "related": ""
+        },
+        {
+          "@id": "http://95ad0414-d260-4e77-a11f-a7613d1d7705",
+          "@type": "sc:Canvas",
+          "label": "Trang 5",
+          "height": 2200,
+          "width": 1700,
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "http://5829d626-f36c-4819-a99d-fab9f4606967",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://trungtamnghiencuuvietnam.github.io/images/So11_April19_1918_0004/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/3/context.json",
+                  "@id": "https://trungtamnghiencuuvietnam.github.io/images/So11_April19_1918_0004",
+                  "profile": "level0"
+                },
+                "height": 2200,
+                "width": 1700
+              },
+              "on": "http://95ad0414-d260-4e77-a11f-a7613d1d7705"
+            }
+          ],
+          "related": ""
+        },
+        {
+          "@id": "http://11d81924-bc47-4bbe-b7fb-7f440f79a9a6",
+          "@type": "sc:Canvas",
+          "label": "Trang 6",
+          "height": 2200,
+          "width": 1700,
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "http://15f8b7c6-facc-401a-a181-8260f20b6d41",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://trungtamnghiencuuvietnam.github.io/images/So11_April19_1918_0005/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/3/context.json",
+                  "@id": "https://trungtamnghiencuuvietnam.github.io/images/So11_April19_1918_0005",
+                  "profile": "level0"
+                },
+                "height": 2200,
+                "width": 1700
+              },
+              "on": "http://11d81924-bc47-4bbe-b7fb-7f440f79a9a6"
+            }
+          ],
+          "related": ""
+        },
+        {
+          "@id": "http://32dc2d76-601d-48e3-9b15-eecbbe3cffba",
+          "@type": "sc:Canvas",
+          "label": "Trang 7",
+          "height": 2200,
+          "width": 1700,
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "http://addb25bd-b2b0-4bbe-b1c9-de051e4dd7f4",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://trungtamnghiencuuvietnam.github.io/images/So11_April19_1918_0006/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/3/context.json",
+                  "@id": "https://trungtamnghiencuuvietnam.github.io/images/So11_April19_1918_0006",
+                  "profile": "level0"
+                },
+                "height": 2200,
+                "width": 1700
+              },
+              "on": "http://32dc2d76-601d-48e3-9b15-eecbbe3cffba"
+            }
+          ],
+          "related": ""
+        },
+        {
+          "@id": "http://e02d93b4-fc52-47bd-94e4-f98488d795f5",
+          "@type": "sc:Canvas",
+          "label": "Trang 8",
+          "height": 2200,
+          "width": 1700,
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "http://ef83c055-a363-486f-926c-e5b8c13e1836",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://trungtamnghiencuuvietnam.github.io/images/So11_April19_1918_0007/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/3/context.json",
+                  "@id": "https://trungtamnghiencuuvietnam.github.io/images/So11_April19_1918_0007",
+                  "profile": "level0"
+                },
+                "height": 2200,
+                "width": 1700
+              },
+              "on": "http://e02d93b4-fc52-47bd-94e4-f98488d795f5"
+            }
+          ],
+          "related": ""
+        },
+        {
+          "@id": "http://ccb2994d-18ff-4166-9f24-cefa3e6cc26f",
+          "@type": "sc:Canvas",
+          "label": "Trang 9",
+          "height": 2200,
+          "width": 1700,
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "http://20d32bfb-4bb3-4277-acfb-7309f86a90c3",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://trungtamnghiencuuvietnam.github.io/images/So11_April19_1918_0008/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/3/context.json",
+                  "@id": "https://trungtamnghiencuuvietnam.github.io/images/So11_April19_1918_0008",
+                  "profile": "level0"
+                },
+                "height": 2200,
+                "width": 1700
+              },
+              "on": "http://ccb2994d-18ff-4166-9f24-cefa3e6cc26f"
+            }
+          ],
+          "related": ""
+        },
+        {
+          "@id": "http://12355b68-75f3-4d58-8f8e-19cf61afb9d3",
+          "@type": "sc:Canvas",
+          "label": "Trang 10",
+          "height": 2200,
+          "width": 1700,
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "http://8fd41cf8-b901-4bd9-b5bb-47366c008e1e",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://trungtamnghiencuuvietnam.github.io/images/So11_April19_1918_0009/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/3/context.json",
+                  "@id": "https://trungtamnghiencuuvietnam.github.io/images/So11_April19_1918_0009",
+                  "profile": "level0"
+                },
+                "height": 2200,
+                "width": 1700
+              },
+              "on": "http://12355b68-75f3-4d58-8f8e-19cf61afb9d3"
+            }
+          ],
+          "related": ""
+        },
+        {
+          "@id": "http://b0c54cbe-3c75-4113-9d8c-3775ab855e0d",
+          "@type": "sc:Canvas",
+          "label": "Trang 11",
+          "height": 2200,
+          "width": 1700,
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "http://958c9a85-7d02-4755-8f87-6429c79edf06",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://trungtamnghiencuuvietnam.github.io/images/So11_April19_1918_0010/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/3/context.json",
+                  "@id": "https://trungtamnghiencuuvietnam.github.io/images/So11_April19_1918_0010",
+                  "profile": "level0"
+                },
+                "height": 2200,
+                "width": 1700
+              },
+              "on": "http://b0c54cbe-3c75-4113-9d8c-3775ab855e0d"
+            }
+          ],
+          "related": ""
+        },
+        {
+          "@id": "http://849208ac-5030-4560-b54c-7fbae901b6e8",
+          "@type": "sc:Canvas",
+          "label": "Trang 12",
+          "height": 2200,
+          "width": 1700,
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "http://7459e778-cc4e-42e1-94b7-0eebea95c7bb",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://trungtamnghiencuuvietnam.github.io/images/So11_April19_1918_0011/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/3/context.json",
+                  "@id": "https://trungtamnghiencuuvietnam.github.io/images/So11_April19_1918_0011",
+                  "profile": "level0"
+                },
+                "height": 2200,
+                "width": 1700
+              },
+              "on": "http://849208ac-5030-4560-b54c-7fbae901b6e8"
+            }
+          ],
+          "related": ""
+        },
+        {
+          "@id": "http://f4424327-0d58-4573-a86c-1145cb9bf8bf",
+          "@type": "sc:Canvas",
+          "label": "Trang 13",
+          "height": 2200,
+          "width": 1700,
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "http://e8c73c47-e8b1-4d7d-a052-414308624304",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://trungtamnghiencuuvietnam.github.io/images/So11_April19_1918_0012/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/3/context.json",
+                  "@id": "https://trungtamnghiencuuvietnam.github.io/images/So11_April19_1918_0012",
+                  "profile": "level0"
+                },
+                "height": 2200,
+                "width": 1700
+              },
+              "on": "http://f4424327-0d58-4573-a86c-1145cb9bf8bf"
+            }
+          ],
+          "related": ""
+        },
+        {
+          "@id": "http://73138a2d-5388-4522-9fda-278cce39d603",
+          "@type": "sc:Canvas",
+          "label": "Trang 14",
+          "height": 2200,
+          "width": 1700,
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "http://76a8613d-b3c4-4185-ad5a-daa6a8f46016",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://trungtamnghiencuuvietnam.github.io/images/So11_April19_1918_0013/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/3/context.json",
+                  "@id": "https://trungtamnghiencuuvietnam.github.io/images/So11_April19_1918_0013",
+                  "profile": "level0"
+                },
+                "height": 2200,
+                "width": 1700
+              },
+              "on": "http://73138a2d-5388-4522-9fda-278cce39d603"
+            }
+          ],
+          "related": ""
+        },
+        {
+          "@id": "http://2fe2d09c-d4d6-4da2-9602-fe9643d1eceb",
+          "@type": "sc:Canvas",
+          "label": "Trang 15",
+          "height": 2200,
+          "width": 1700,
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "http://c350cfce-cdbf-47b0-b1d0-c838795db14c",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://trungtamnghiencuuvietnam.github.io/images/So11_April19_1918_0014/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/3/context.json",
+                  "@id": "https://trungtamnghiencuuvietnam.github.io/images/So11_April19_1918_0014",
+                  "profile": "level0"
+                },
+                "height": 2200,
+                "width": 1700
+              },
+              "on": "http://2fe2d09c-d4d6-4da2-9602-fe9643d1eceb"
+            }
+          ],
+          "related": ""
+        },
+        {
+          "@id": "http://e412043a-8d7c-44dc-b91d-d4ab359e7080",
+          "@type": "sc:Canvas",
+          "label": "Trang 16",
+          "height": 2200,
+          "width": 1700,
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "http://09d14f0b-ae00-458d-9fb5-3671098efbc4",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://trungtamnghiencuuvietnam.github.io/images/So11_April19_1918_0015/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/3/context.json",
+                  "@id": "https://trungtamnghiencuuvietnam.github.io/images/So11_April19_1918_0015",
+                  "profile": "level0"
+                },
+                "height": 2200,
+                "width": 1700
+              },
+              "on": "http://e412043a-8d7c-44dc-b91d-d4ab359e7080"
+            }
+          ],
+          "related": ""
+        },
+        {
+          "@id": "http://5d78b966-85e2-4b24-ab45-d9330ab63d77",
+          "@type": "sc:Canvas",
+          "label": "Trang 17",
+          "height": 2200,
+          "width": 1700,
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "http://ab8ecde9-cf3c-4651-91ab-e69e00c4aaf2",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://trungtamnghiencuuvietnam.github.io/images/So11_April19_1918_0016/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/3/context.json",
+                  "@id": "https://trungtamnghiencuuvietnam.github.io/images/So11_April19_1918_0016",
+                  "profile": "level0"
+                },
+                "height": 2200,
+                "width": 1700
+              },
+              "on": "http://5d78b966-85e2-4b24-ab45-d9330ab63d77"
+            }
+          ],
+          "related": ""
+        },
+        {
+          "@id": "http://d4908b1a-fb5d-4684-85d1-59006cef671f",
+          "@type": "sc:Canvas",
+          "label": "Trang 18",
+          "height": 2200,
+          "width": 1700,
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "http://52b5e872-d7f2-4923-b894-23a4a4e786c2",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://trungtamnghiencuuvietnam.github.io/images/So11_April19_1918_0017/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/3/context.json",
+                  "@id": "https://trungtamnghiencuuvietnam.github.io/images/So11_April19_1918_0017",
+                  "profile": "level0"
+                },
+                "height": 2200,
+                "width": 1700
+              },
+              "on": "http://d4908b1a-fb5d-4684-85d1-59006cef671f"
+            }
+          ],
+          "related": ""
+        },
+        {
+          "@id": "http://30889e6a-c468-424d-8031-4b78db6f845d",
+          "@type": "sc:Canvas",
+          "label": "Trang 19",
+          "height": 2200,
+          "width": 1700,
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "http://3a913590-6fdc-4876-8d8a-312120c43e4e",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://trungtamnghiencuuvietnam.github.io/images/So11_April19_1918_0018/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/3/context.json",
+                  "@id": "https://trungtamnghiencuuvietnam.github.io/images/So11_April19_1918_0018",
+                  "profile": "level0"
+                },
+                "height": 2200,
+                "width": 1700
+              },
+              "on": "http://30889e6a-c468-424d-8031-4b78db6f845d"
+            }
+          ],
+          "related": ""
+        },
+        {
+          "@id": "http://8f4ed8d8-38e9-4ba5-8af3-8489f5935cb2",
+          "@type": "sc:Canvas",
+          "label": "Trang 20",
+          "height": 2200,
+          "width": 1700,
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "http://a95ddc8d-f1ac-4af2-946a-f8fb63625e22",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://trungtamnghiencuuvietnam.github.io/images/So11_April19_1918_0019/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/3/context.json",
+                  "@id": "https://trungtamnghiencuuvietnam.github.io/images/So11_April19_1918_0019",
+                  "profile": "level0"
+                },
+                "height": 2200,
+                "width": 1700
+              },
+              "on": "http://8f4ed8d8-38e9-4ba5-8af3-8489f5935cb2"
+            }
+          ],
+          "related": ""
+        },
+        {
+          "@id": "http://5b29bbdb-0ff8-4b5a-8f2b-9d86d6555332",
+          "@type": "sc:Canvas",
+          "label": "Trang 21",
+          "height": 2200,
+          "width": 1700,
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "http://2a792849-f4f0-47e4-bfb9-65df6a1a9d67",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://trungtamnghiencuuvietnam.github.io/images/So11_April19_1918_0020/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/3/context.json",
+                  "@id": "https://trungtamnghiencuuvietnam.github.io/images/So11_April19_1918_0020",
+                  "profile": "level0"
+                },
+                "height": 2200,
+                "width": 1700
+              },
+              "on": "http://5b29bbdb-0ff8-4b5a-8f2b-9d86d6555332"
+            }
+          ],
+          "related": ""
+        },
+        {
+          "@id": "http://dfa56e6c-2ef3-4f6e-9f47-fd5fb5f5440f",
+          "@type": "sc:Canvas",
+          "label": "Trang 22",
+          "height": 2200,
+          "width": 1700,
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "http://7291c3a4-43c0-4ce7-878e-0c61745bda41",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://trungtamnghiencuuvietnam.github.io/images/So11_April19_1918_0021/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/3/context.json",
+                  "@id": "https://trungtamnghiencuuvietnam.github.io/images/So11_April19_1918_0021",
+                  "profile": "level0"
+                },
+                "height": 2200,
+                "width": 1700
+              },
+              "on": "http://dfa56e6c-2ef3-4f6e-9f47-fd5fb5f5440f"
+            }
+          ],
+          "related": ""
+        },
+        {
+          "@id": "http://4c65bcad-a4e5-4c25-afbe-46ccf39b7dc5",
+          "@type": "sc:Canvas",
+          "label": "Trang 23",
+          "height": 2200,
+          "width": 1700,
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "http://eda39819-34cb-41b9-b317-a927ce71624c",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://trungtamnghiencuuvietnam.github.io/images/So11_April19_1918_0022/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/3/context.json",
+                  "@id": "https://trungtamnghiencuuvietnam.github.io/images/So11_April19_1918_0022",
+                  "profile": "level0"
+                },
+                "height": 2200,
+                "width": 1700
+              },
+              "on": "http://4c65bcad-a4e5-4c25-afbe-46ccf39b7dc5"
+            }
+          ],
+          "related": ""
+        },
+        {
+          "@id": "http://efe095c6-0091-42eb-9cd9-08cc12668139",
+          "@type": "sc:Canvas",
+          "label": "Trang 24",
+          "height": 2200,
+          "width": 1700,
+          "images": [
+            {
+              "@context": "http://iiif.io/api/presentation/2/context.json",
+              "@id": "http://a05f0c67-192a-4392-836f-7128c26a018e",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://trungtamnghiencuuvietnam.github.io/images/So11_April19_1918_0023/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/3/context.json",
+                  "@id": "https://trungtamnghiencuuvietnam.github.io/images/So11_April19_1918_0023",
+                  "profile": "level0"
+                },
+                "height": 2200,
+                "width": 1700
+              },
+              "on": "http://efe095c6-0091-42eb-9cd9-08cc12668139"
+            }
+          ],
+          "related": ""
+        }
+      ]
+    }
+  ],
+  "structures": [],
+  "logo": "https://nugioichung-frontend.vercel.app/images/Logo1.png",
+  "thumbnail": {
+    "@id": "https://trungtamnghiencuuvietnam.github.io/images/So11_April19_1918_0000/full/full/0/default.jpg"
+  }
+}
