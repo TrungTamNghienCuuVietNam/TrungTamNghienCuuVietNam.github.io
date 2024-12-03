@@ -30,11 +30,11 @@
     },
     {
       "label": "Ngày xuất bản",
-      "value": "ISO 8601: 1918-02-01\nTiếng Việt: Ngày 1 tháng 2, năm 1918"
+      "value": "ISO 8601: 1918-02-01<br>Tiếng Việt: Ngày 1 tháng 2, năm 1918"
     },
     {
       "label": "Ngôn ngữ",
-      "value": "Tiếng Việt (vie),\nTiếng Pháp (fra),\nTiếng Trung Quốc (zho)"
+      "value": "Tiếng Việt (vie)<br>Tiếng Pháp (fra)<br>Tiếng Trung Quốc (zho)"
     },
     {
       "label": "Tóm tắt",
@@ -43,7 +43,7 @@
     {
       "label": "Chủ đề (từ khóa theo chuẩn LCSH):",
       "value": [
-        "Báo chí Việt Nam (Vietnamese periodicals)\nNữ quyền--Việt Nam (Feminism--Vietnam)"
+        "Báo chí Việt Nam (Vietnamese periodicals)<br>Nữ quyền--Việt Nam (Feminism--Vietnam)"
       ]
     },
     {
