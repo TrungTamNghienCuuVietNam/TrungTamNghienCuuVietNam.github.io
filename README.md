@@ -1,1 +1,1 @@
-# This is a random document with little or no preparation
+# Manifest storage for nugioichung newspaper

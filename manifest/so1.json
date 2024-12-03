@@ -34,7 +34,11 @@
     },
     {
       "label": "Ngôn ngữ",
-      "value": "Tiếng Việt (vie)<br>Tiếng Pháp (fra)<br>Tiếng Trung Quốc (zho)"
+      "value": {
+        "1": "Tiếng Việt (vie)",
+        "2": "Tiếng Pháp (fra)",
+        "3": "Tiếng Trung Quốc (zho)"
+      }
     },
     {
       "label": "Tóm tắt",
