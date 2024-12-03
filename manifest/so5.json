@@ -2,24 +2,58 @@
   "@context": "http://iiif.io/api/presentation/2/context.json",
   "@id": "https://trungtamnghiencuuvietnam.github.io/manifest/so5.json",
   "@type": "sc:Manifest",
-  "label": ["Số 5 - Báo Nữ Giới Chung"],
+  "label": ["Số báo 5 - Báo Nữ Giới Chung"],
   "metadata": [
     {
-      "label": "Chủ bút",
+      "label": "Tiêu đề chính",
+      "value": "Nữ Giới Chung"
+    },
+    {
+      "label": "Phụ đề",
+      "value": "女界钟 (Nǚ jiè zhōng, Nữ Giới Chuông)"
+    },
+    {
+      "label": "Phụ đề",
+      "value": "Fémina Annamite"
+    },
+    {
+      "label": "Tổng biên tập",
       "value": "Sương Nguyệt Anh"
     },
     {
-      "label": "Ngày xuất bản",
-      "value": "Ngày 8 tháng 3 năm 1918"
-    }
-  ],
-  "description": [
+      "label": "Thể loại",
+      "value": "Báo chí phụ nữ Việt Nam (Women's periodicals, Vietnamese)"
+    },
     {
-      "@value": "Báo nữ giới chung là tờ báo nổi bật của thế kỉ XX",
-      "@language": "vi"
+      "label": "Nơi xuất bản",
+      "value": "Việt Nam"
+    },
+    {
+      "label": "Ngày xuất bản",
+      "value": "ISO 8601: 1918-03-08, Tiếng Việt: Ngày 8 tháng 3, năm 1918"
+    },
+    {
+      "label": "Thông tin về tập (Volume):",
+      "value": "Tập: 5"
+    },
+    {
+      "label": "Ngôn ngữ",
+      "value": "Tiếng Việt (vie), Tiếng Pháp (fra), Tiếng Trung Quốc (zho)"
+    },
+    {
+      "label": "Tóm tắt",
+      "value": "Nữ Giới Chung, xuất bản năm 1918, là tờ nữ báo đầu tiên tại Việt Nam. Tờ báo đóng vai trò quan trọng trong việc thúc đẩy quyền phụ nữ dưới sự biên tập của Sương Nguyệt Anh, một cây bút nổi bật trong làng báo Việt Nam vào đầu thế kỷ 20."
+    },
+    {
+      "label": "Chủ đề (từ khóa theo chuẩn LCSH):",
+      "value": "Báo chí Việt Nam (Vietnamese periodicals), Nữ quyền--Việt Nam (Feminism--Vietnam)"
+    },
+    {
+      "label": "Điều kiện truy cập:",
+      "value": "Truy cập mở phục vụ mục đích giáo dục và nghiên cứu; cấm sử dụng với mục đích thương mại."
     }
   ],
-  "license": "Proprietary",
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
   "attribution": "Mọi quyền đã được bảo lưu. Bản quyền thuộc về Trung Tâm Nghiên Cứu Việt Nam",
   "sequences": [
     {

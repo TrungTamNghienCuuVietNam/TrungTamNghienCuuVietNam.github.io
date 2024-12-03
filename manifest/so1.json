@@ -2,7 +2,7 @@
   "@context": "http://iiif.io/api/presentation/2/context.json",
   "@id": "https://trungtamnghiencuuvietnam.github.io/manifest/so1.json",
   "@type": "sc:Manifest",
-  "label": ["Số 1 - Báo Nữ Giới Chung"],
+  "label": ["Số báo 1 - Báo Nữ Giới Chung"],
   "metadata": [
     {
       "label": "Tiêu đề chính",
@@ -33,6 +33,10 @@
       "value": "ISO 8601: 1918-02-01, Tiếng Việt: Ngày 1 tháng 2, năm 1918"
     },
     {
+      "label": "Thông tin về tập (Volume):",
+      "value": "Tập: 1"
+    },
+    {
       "label": "Ngôn ngữ",
       "value": "Tiếng Việt (vie), Tiếng Pháp (fra), Tiếng Trung Quốc (zho)"
     },
@@ -43,7 +47,6 @@
     {
       "label": "Chủ đề (từ khóa theo chuẩn LCSH):",
       "value": "Báo chí Việt Nam (Vietnamese periodicals), Nữ quyền--Việt Nam (Feminism--Vietnam)"
-      
     },
     {
       "label": "Điều kiện truy cập:",
