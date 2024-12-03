@@ -30,25 +30,20 @@
     },
     {
       "label": "Ngày xuất bản",
-      "value": "ISO 8601: 1918-02-01<br>Tiếng Việt: Ngày 1 tháng 2, năm 1918"
+      "value": "ISO 8601: 1918-02-01, Tiếng Việt: Ngày 1 tháng 2, năm 1918"
     },
     {
       "label": "Ngôn ngữ",
-      "value": {
-        "1": "Tiếng Việt (vie)",
-        "2": "Tiếng Pháp (fra)",
-        "3": "Tiếng Trung Quốc (zho)"
-      }
+      "value": "Tiếng Việt (vie), Tiếng Pháp (fra), Tiếng Trung Quốc (zho)"
     },
     {
       "label": "Tóm tắt",
-      "value": "Nữ Giới Chung, xuất bản năm 1918, là tờ nữ báo đầu tiên tại Việt Nam.\nTờ báo đóng vai trò quan trọng trong việc thúc đẩy quyền phụ nữ dưới sự biên tập của Sương Nguyệt Anh, một cây bút nổi bật trong làng báo Việt Nam vào đầu thế kỷ 20."
+      "value": "Nữ Giới Chung, xuất bản năm 1918, là tờ nữ báo đầu tiên tại Việt Nam. Tờ báo đóng vai trò quan trọng trong việc thúc đẩy quyền phụ nữ dưới sự biên tập của Sương Nguyệt Anh, một cây bút nổi bật trong làng báo Việt Nam vào đầu thế kỷ 20."
     },
     {
       "label": "Chủ đề (từ khóa theo chuẩn LCSH):",
-      "value": [
-        "Báo chí Việt Nam (Vietnamese periodicals)<br>Nữ quyền--Việt Nam (Feminism--Vietnam)"
-      ]
+      "value": "Báo chí Việt Nam (Vietnamese periodicals), Nữ quyền--Việt Nam (Feminism--Vietnam)"
+      
     },
     {
       "label": "Điều kiện truy cập:",
